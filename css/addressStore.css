@@ -1,0 +1,86 @@
+.section__storeHN {
+    padding-bottom: 80px;
+}
+.storeHN {
+    display: flex;
+}
+.storeHN__direct {
+    box-sizing: border-box;
+    padding: 20px 20px 50px 20px;
+
+    width: 35%;
+    /* height: 435px; */
+
+    background-color: #f8f8f8;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3) ;
+}
+.storeHN__direct h2 {
+    margin-bottom: 20px;
+}
+.store__recent {    
+    font-size: 18px;
+    font-weight: 600;
+}
+.storeHN__direct form {
+    margin-bottom: 40px;
+    width: 100%;
+}
+.storeHN__direct form select,
+.storeHN__direct form input {
+    box-sizing: border-box;
+    padding: 5px 20px;
+
+    width: 100%;
+    height: 40px;    
+    color: #8b7575;
+
+    border: none;
+    border-bottom: 1px solid #c2c1c1;
+    outline: none;
+}
+.choose__district {
+    position: relative;    
+}
+.choose__district a {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+.choose__district a i {
+    color: #8b7575;
+}
+.store__quantity {
+    font-size: 18px;
+    font-weight: 500;
+}
+.storeHN__direct > ol {
+    box-sizing: border-box;
+    padding: 5px 10px 50px 10px;
+    background-color: #ffffff;
+}
+.storeHN__direct ol li {    
+    font-size: 15px;
+    font-weight: 400;
+}
+.storeHN__direct > ol > li {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.storeHN__direct ol ol {
+    margin-left: 20px;
+}
+.storeHN__direct ol ol li:last-child {
+    margin-top: 30px;
+}
+.storeHN__direct ol ol li:last-child a {
+    text-decoration: none;
+    color: #000000;
+}
+.storeHN__direct ol ol li:last-child a i {
+    margin-right: 5px;
+}
+.storeHN__ggmap {
+    width: 65%;
+    
+}

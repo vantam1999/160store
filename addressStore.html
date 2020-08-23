@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tin Tức</title>
+    <title>Chi nhánh Hà Nội</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -11,7 +11,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./share/base.css" /> 
     <link rel="stylesheet" href="./share/header.css" />
-    <link rel="stylesheet" href="./css/news.css" />
+    <link rel="stylesheet" href="./css/addressStore.css" />
     <link rel="stylesheet" href="./share/footer.css" />
     <link rel="stylesheet" href="./share/responsive-share.css" />
 </head>
@@ -108,7 +108,59 @@
                 </div>
             </div>
         </header>
-        <div class="body-content"></div>
+
+        <div class="body-content">
+            <section class="section__storeHN">
+                <div class="storeHN">
+                    <div class="storeHN__direct">
+                        <h2 class="store__recent">TÌM CỬA HÀNG GẦN BẠN</h2>
+                        <form>
+                            <div>
+                                <select>
+                                    <option>Chọn tỉnh/thành phố</option>
+                                    <option selected>Hà Nội</option>
+                                    <option>Đà Nẵng</option>
+                                    <option>Biên Hòa</option>
+                                    <option>Hồ Chí Minh</option>
+                                    <option>Cần Thơ</option>
+                                </select>
+                            </div>
+                            <div class="choose__district">
+                                <input type="text" placeholder="Chọn quận/huyện..." />
+                                <a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+                            </div>
+                        </form>
+                        <h2 class="store__quantity">Cửa hàng Hà Nội có 2 cửa hàng</h2>
+                        <ol>
+                            <li><i class="fa fa-map-marker"></i> Hà Nội 2
+                                <ol>
+                                    <li>Số 26 Lê Đại Hành</li>
+                                    <li>Thời gian mở cửa: 9h - 22h</li>
+                                    <li>
+                                        <a href="javascript:void()">
+                                            <i class="fa fa-map-signs"></i><small><u>Chỉ đường</u></small>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li><i class="fa fa-map-marker"></i> Hà Nội 1
+                                <ol>
+                                    <li>Số 2 Ngõ 232 Tôn Đức Thắng</li>
+                                    <li>Thời gian mở cửa: 9h - 22h</li>
+                                    <li>
+                                        <a href="javascript:void()">
+                                            <i class="fa fa-map-signs"></i><small><u>Chỉ đường</u></small>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="storeHN__ggmap"></div>
+                </div>
+            </section>
+        </div>
+        
         <footer class="footer">
             <div class="footer__home">
                 <div class="item footer__about">
@@ -154,15 +206,45 @@
                     </ol>
                 </div>
                 <div class="item footer__tv">
-                    <h2>Tư Vấn Bán Hàng</h2>                    
+                    <h2>Tư Vấn Bán Hàng</h2> 
+                    <ol>
+                        <li>
+                            <span><i class="fa fa-clock-o"></i></span>
+                            <span>9:00 - 21h20</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone-square"></i></span>
+                            <span>02871006789</span>
+                        </li>
+                    </ol>                    
                 </div>
                 <div class="item footer__cskh">
-                    <h2>Chăm Sóc Khách Hàng</h2>                    
+                    <h2>Chăm Sóc Khách Hàng</h2>   
+                    <ol>
+                        <li>
+                            <span><i class="fa fa-clock-o"></i></span>
+                            <span>9:00 - 21h00</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone-square"></i></span>
+                            <span>02871006555</span>
+                        </li>
+                    </ol>                   
                 </div>
             </div>
         </footer>
     </div>
     
+    <!-- === contact social === -->
+    <button class="contact__social--open">+</button>
+    <ol class="contact__social">        
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+    </ol>
+    <!-- === loading === -->
     <div class="loading">
         <div class="loading__image">
             <img src="./assets/images/loading1.gif" />

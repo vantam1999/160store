@@ -1,0 +1,93 @@
+.section__news {
+    padding: 30px 0;
+}
+.news {
+    display: flex;    
+}
+/* = sidebar = */
+.sidebar {
+    width: 35%;
+}
+.blogNew,
+.blogCate {
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.blogNew__home,
+.blogCate__home {
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #d8d5d5;    
+}
+.blogNew__home h1,
+.blogCate__home h1 {
+    padding-bottom: 10px;
+
+    font-size: 16px;
+    text-align: center;
+
+    border-bottom: 2px solid #000000;
+}
+/* = blog new = */
+.blogNew__home .blogNew__details {
+    display: flex;
+    padding: 20px 0 30px 0;
+}
+.blogNew__details > .blogNew__details--image {
+    margin-right: 15px;
+}
+.blogNew__home .blogNew__details img {
+    width: 70px;
+    height: auto;  
+    object-fit: cover;
+}
+.blogNew__details--text a {
+    font-size: 14px;
+    color: #000000;
+}
+.blogNew__details--text a:hover {
+    color: #f56200;
+}
+/* = blog cate = */
+.blogCate__home ol {
+    padding: 20px 0 30px 0;
+}
+.blogCate__home ol li {
+    margin-bottom: 15px;
+}
+.blogCate__home ol li a {
+    color: #000000;
+}
+
+/* = main = */
+main {
+    width: 75%;
+}
+.main__home {
+    padding: 0 20px;
+}
+.main__home h1 {
+    margin-bottom: 20px;
+}
+.main__details {
+    display: flex;
+}
+.main__details--image {
+    margin-right: 20px;
+}
+.main__details--image a img {
+    width: 315px;
+    height: auto;
+    object-fit: cover;
+}
+.main__details--text h2 {
+    font-size: 16px;    
+    margin-bottom: 20px;
+}
+.main__details--text h2 a {
+    color: #000000;
+}
+.main__details--text h2 a:hover {
+    color: #f56200;
+}
